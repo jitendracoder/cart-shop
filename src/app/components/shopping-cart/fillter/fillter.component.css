@@ -1,0 +1,12 @@
+
+.filter input{
+   width: 100%;
+}
+.filter label{
+    font-weight: 500;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.filter button{
+    margin-top: 20px;
+}
