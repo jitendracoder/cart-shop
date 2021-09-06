@@ -6,7 +6,11 @@
 
             <div class="card-body">
               <p class="price-text"> <strong>{{items.price | currency:'INR'}}</strong></p>
-              <p>{{items.discription}}</p>
+              <p>{{items.discription}}{{items.wishlistAdd}}
+                <i class="fa fa-heart-o float-right" aria-hidden="true" *ngIf="!items.wishlistAdd"   (click)="addToWishList(items)"></i>
+                <i class="fa fa-heart float-right"   aria-hidden="true" *ngIf="items.wishlistAdd"    (click)="removeToWishList(items)"></i>
+                
+              </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" (click)="addcart(items)" class="btn btn-sm btn-primary">Add Cart</button>

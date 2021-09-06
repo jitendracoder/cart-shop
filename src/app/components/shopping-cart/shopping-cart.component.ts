@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShoppingCartComponent implements OnInit {
 
-  constructor() { }
+  constructor() {  console.log("shopping cart called") }
 
   ngOnInit() {
   }

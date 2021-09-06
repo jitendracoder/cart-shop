@@ -1,14 +1,458 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Cart</title>
-  <base href="/">
+@include("customer-panel/layout/head")
+@include("customer-panel/layout/footer")
+<body class="left-sidebar-fixed left-sidebar-color header-fixed">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
-</html>
+@include('customer-panel/layout/header')
+
+<div class="app-body">
+    <!--left sidebar start-->
+
+
+
+    <!--left sidebar end-->
+    @include('customer-panel/layout/left-menu')
+    <!--main content wrapper-->
+
+    <style>
+        
+        </style>
+<div class="content-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card card-shadow mb-4">
+						<div class="card-header border-0">
+							<div class="custom-title-wrap bar-pink">
+								<div class="custom-title">
+									Add Linen Inventory Delivery
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<!-- <dt>
+                                    <a href="">Basic Details</a>
+                                </dt> -->
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label for="exampleInputEmail">Dispatch Ref No</label> 
+										<input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1" disabled placeholder="RTX000022" type="email">
+									</div>
+								</div>
+
+							
+
+								<hr>
+								<div class="col-lg-12 px-0 mb-3">
+									
+								
+
+								<div class="card-header border-0">
+							<div class="custom-title-wrap bar-pink">
+								<div class="custom-title">
+									Pregenerated Customer Linen Inventory
+								</div>
+							</div>
+						</div></div>
+								<div class="col-lg-4">
+									<div class="form-group">
+										<label for="exampleInputEmail">Dirty Linen Type Inventory Pickup</label> <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1" placeholder="Enter Company Name" type="email">
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="form-group">
+										<label for="exampleInputEmail">Fresh Linen Type Inventory Drop</label> <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1" placeholder="Enter Email Address" type="email">
+									</div>
+								</div>
+							
+								<div class="col-lg-4">
+									<div class="form-group">
+										<label for="exampleInputEmail">Customer Notes/Remarks (If Any)</label> <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1" placeholder="Enter Mobile Phone" type="email">
+									</div>
+								</div>
+							
+
+								
+								
+
+							
+							</div>
+						</div>
+						<div class="col-lg-12 mb-3 text-left mt-0">
+							<a class="btn btn-purple" href="view-requisition-form">Submit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--/main content wrapper-->
+
+    <!--right sidebar-->
+    <div class="right-sidebar" id="right_side_bar">
+        <div class="card border-0">
+            <div class="card-body pb-0">
+                <!--close toggle-->
+                <a href="javascript:;" class="right_side_toggle float-right close-sidebar-icon">
+                    <i class=" ti-shift-right"> </i>
+                </a>
+                <!--/close toggle-->
+            </div>
+            <div class="card-body pt-2">
+
+                <div class="right-widget">
+                    <div class="custom-title-wrap bar-primary mb-4">
+                        <div class="custom-title">Today's Activity</div>
+                    </div>
+
+                    <ul class="list-unstyled base-timeline">
+                        <li class="time-dot-primary">
+                            <div class="base-timeline-info">
+                                <a href="#">John123</a> Successfully purchased item#26
+                            </div>
+                            <small class="text-muted">
+                                28 mins ago
+                            </small>
+                        </li>
+                        <li class="time-dot-danger">
+                            <div class="base-timeline-info">
+                                <a href="#" class="text-danger">Farnandez</a> placed the order for accessories
+                            </div>
+                            <small class="text-muted">
+                                2 days ago
+                            </small>
+                        </li>
+                        <li class="time-dot-purple">
+                            <div class="base-timeline-info">
+                                User <a href="#" class="text-purple">Lisa Maria</a> checked out from the market
+                            </div>
+                            <small class="text-muted">
+                                12 mins ago
+                            </small>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-widget">
+                    <div class="custom-title-wrap bar-danger mb-4">
+                        <div class="custom-title">Active Users</div>
+                    </div>
+
+                    <ul class="list-unstyled mb-0 list-widget">
+                        <li class="cursor">
+                            <div class="media mb-4">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar1.jpg" alt=" ">
+                                    <span class="status bg-success"></span>
+                                </div>
+                                <div class="media-body ">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">shirley hoe</h6>
+                                        <span class="text-muted">Online</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cursor">
+                            <div class="media mb-4">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar2.jpg" alt=" ">
+                                    <span class="status bg-warning"></span>
+                                </div>
+                                <div class="media-body ">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">james alexender</h6>
+                                        <span class="text-muted">Screaming...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cursor">
+                            <div class="media mb-4">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar3.jpg" alt=" ">
+                                    <span class="status bg-info"></span>
+                                </div>
+                                <div class="media-body">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">ursula sitorus</h6>
+                                        <span class="text-muted">Start Exploring</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cursor">
+                            <div class="media mb-3">
+                                <div class="st-alphabet mr-3">
+                                    <img class="rounded-circle" src="assets/img/avatar/avatar4.jpg" alt=" ">
+                                    <span class="status bg-danger"></span>
+                                </div>
+                                <div class="media-body">
+                                    <div class="float-left">
+                                        <h6 class="text-uppercase mb-0">jonna pinedda</h6>
+                                        <span class="text-muted">Busy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-widget">
+
+                    <div class="custom-title-wrap bar-success mb-4">
+                        <div class="custom-title">Notification</div>
+                    </div>
+
+                    <div>
+                        <a class="nav-link border-bottom px-0 py-3" href="#">
+                            <span class="text-primary">
+                            <span class="weight700 f12">
+                                <i class="vl_bell weight600 pr-2"></i>Weekly Update</span>
+                            </span>
+                            <span class="small float-right text-muted">03:14 AM</span>
+
+                            <div class="text-dark f12">
+                                This week project update report generated. All team members are requested to check the updates
+                            </div>
+                        </a>
+
+                        <a class="nav-link border-bottom px-0 py-3" href="#">
+                            <span class="text-danger">
+                            <span class="weight700 f12">
+                                <i class="vl_Download-circle weight600 pr-2"></i>Server Error</span>
+                            </span>
+                            <span class="small float-right text-muted">10:34 AM</span>
+
+                            <div class="text-dark f12">
+                                Unexpectedly server response stop. Responsible members are requested to fix it soon
+                            </div>
+                        </a>
+
+                        <a class="nav-link border-bottom px-0 py-3" href="#">
+                            <span class="text-success">
+                            <span class="weight700 f12">
+                                <i class="vl_screen weight600 pr-2"></i>Monthly Meeting</span>
+                            </span>
+                            <span class="small float-right text-muted">12:30 AM</span>
+
+                            <div class="text-dark f12">
+                                Our monthly meeting will be held on tomorrow sharp 12:30. All members are requested to attend this meeting.
+                            </div>
+                        </a>
+
+                        <div class="text-center mt-3">
+                            <a class="nav-link px-0" href="#">View all notification</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--/right sidebar-->
+</div>
+
+
+<div class="col-lg-12 main-footer">
+ <div class="container">
+
+<div class="row">
+ 
+<div class="col-lg-6 text-left">
+<p>Copyright © 2021 • Software Version 1.0</p>
+</div>
+<div class="col-lg-6 text-right">
+<p>Powered by Joshmachines - <a href="https://joshmachines.com/" target="_blank">https://joshmachines.com/</p>
+</div>
+
+</div>
+</div>
+</div>
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">
+                                                        Are Sure You Want To Delete
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn btn-purple">Delete</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">
+                                                        Are Sure You Want To Status
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                                                    <button type="button" class="btn btn btn-purple">Change</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                       <!-- Modal -->
+    <div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">
+                                                    Module Selected	
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+
+                                                <div class="col-lg-12 body">
+                                                <p class="mb-0 mt-3">Setting</p>
+                                                <p class="mb-0">Finance Management	</p>
+                                                <p class="mb-0">Linen Management	</p>
+                                                <p class="mb-0 mb-3">Facility Management	</p>
+                                              
+                                                </div>
+                                                
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+<script>
+// Add Row and Table Data for Break-up of Cost
+$(document).ready(function() {
+    $(".add-input-1").click(function() {
+        var markup = "<tr><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td class='delete-div-row text-center'><a href='javascript:void(0);' class='remove-row1  delete-row1 delete-break-up1'><i class='fa fa-edit text-danger'></i></a><a href='javascript:void(0);' class='remove-row  delete-row delete-break-up1 ml-2'><i class='fa fa-trash text-danger'></i></a></td></tr>";
+        $("table tbody.add-input-2").append(markup);
+    });
+    // Find and remove selected table rows
+    $("#add-input-3").on('click', '.delete-row', function() {
+        $(this).parent().parent().remove();
+        // location.reload(true);
+    });
+});
+</script>
+
+
+<script>
+// Add Row and Table Data for Break-up of Cost
+$(document).ready(function() {
+    $(".add-input-111").click(function() {
+        var markup = "<tr><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td class='delete-div-row text-center'><a href='javascript:void(0);' class='remove-row1  delete-row1 delete-break-up1'><i class='fa fa-edit text-danger'></i></a><a href='javascript:void(0);' class='remove-row  delete-row delete-break-up1 ml-2'><i class='fa fa-trash text-danger'></i></a></td></tr>";
+        $("table tbody.add-input-222").append(markup);
+    });
+    // Find and remove selected table rows
+    $("#add-input-333").on('click', '.delete-row', function() {
+        $(this).parent().parent().remove();
+        // location.reload(true);
+    });
+});
+</script>
+    
+    <script>
+// Add Row and Table Data for Break-up of Cost
+$(document).ready(function() {
+    $(".add-input-1A").click(function() {
+        var markup = "<tr><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td class='delete-div-row text-center'><a href='javascript:void(0);' class='remove-row1  delete-row1 delete-break-up1'><i class='fa fa-edit text-danger'></i></a><a href='javascript:void(0);' class='remove-row  delete-row delete-break-up1 ml-2'><i class='fa fa-trash text-danger'></i></a></td></tr>";
+        $("table tbody.add-input-2A").append(markup);
+    });
+    // Find and remove selected table rows
+    $("#add-input-3A").on('click', '.delete-row', function() {
+        $(this).parent().parent().remove();
+        // location.reload(true);
+    });
+});
+</script>
+
+<script>
+// Add Row and Table Data for Break-up of Cost
+$(document).ready(function() {
+    $(".add-input-1AA").click(function() {
+        var markup = "<tr><td><input type='text' class='form-control'></td><td><select class='form-control'><option>Mr</option><option>Mrs</option><option>Miss</option></select></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td><input type='text' class='form-control'></td><td class='delete-div-row text-center'><a href='javascript:void(0);' class='remove-row1  delete-row1 delete-break-up1'><i class='fa fa-edit text-danger'></i></a><a href='javascript:void(0);' class='remove-row  delete-row delete-break-up1 ml-2'><i class='fa fa-trash text-danger'></i></a></td></tr>";
+        $("table tbody.add-input-2AA").append(markup);
+    });
+    // Find and remove selected table rows
+    $("#add-input-3AA").on('click', '.delete-row', function() {
+        $(this).parent().parent().remove();
+        // location.reload(true);
+    });
+});
+</script>
+    
+    
+    <!--basic scripts-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../assets/vendor/popper.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/vendor/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="../assets/vendor/jquery.nicescroll.min.js"></script>
+
+    <!--chartjs-->
+    <script src="../assets/vendor/chartjs/Chart.bundle.min.js"></script>
+    <!--chartjs initialization-->
+    <script src="../assets/vendor/js-init/chartjs/init-bar-chartjs.js"></script>
+
+    <script src="../assets/vendor/chartjs/Chart.bundle.min.js"></script>
+    <!--chartjs initialization-->
+    <script src="../assets/vendor/js-init/chartjs/init-doughnut-chart.js"></script>
+    <script src="../assets/vendor/js-init/chartjs/init-doughnut-chart2.js"></script>
+    <!--<script src="assets/vendor/js-init/chartjs/init-sales-overview-chart.js"></script>-->
+    <script src="../assets/vendor/js-init/chartjs/init-sales-report-chart.js"></script>
+
+    <!--flot chart-->
+    <script src="../assets/vendor/flot/jquery.flot.min.js"></script>
+    <script src="../assets/vendor/flot/jquery.flot.pie.min.js"></script>
+    <script src="../assets/vendor/flot/jquery.flot.tooltip.min.js"></script>
+    <!--flot chart initialization-->
+    <script src="../assets/vendor/js-init/flot/init-flot-widget.js"></script>
+
+    <!--vectormap-->
+    <script src="../assets/vendor/vector-map/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="../assets/vendor/vector-map/jquery-jvectormap-us-aea.js"></script>
+    <!--vectormap initialization-->
+    <script src="../assets/vendor/js-init/vmap/init-vmap-usa.js"></script>
+
+    <!--to do list-->
+    <script src="../assets/vendor/icheck/skins/icheck.min.js"></script>
+    <!--to do list initialization-->
+    <script src="../assets/vendor/js-init/init-todo-list.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="assets/vendor/modernizr.js"></script>
+    <![endif]-->
+
+    <!--basic scripts initialization-->
+    <script src="../assets/js/scripts.js"></script>
+
+
+
+
+<div id="flotTip" style="display: none; position: absolute;"></div><div class="jvectormap-label"></div></body></html>

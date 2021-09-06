@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://chemsec.org/app/uploads/2017/03/Rubiks_cube-739x365.png",
+      "price": 2000,
+      "discription": "test1"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://chemsec.org/app/uploads/2017/03/Rubiks_cube-739x365.png",
+      "price": 2000,
+      "discription": "test1"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://chemsec.org/app/uploads/2017/03/Rubiks_cube-739x365.png",
+      "price": 5000,
+      "discription": "test1"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://chemsec.org/app/uploads/2017/03/Rubiks_cube-739x365.png",
+      "price": 3200,
+      "discription": "test1"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://chemsec.org/app/uploads/2017/03/Rubiks_cube-739x365.png",
+      "price": 3200,
+      "discription": "test1"
+    }
+  ],
+  "cart_arry": [
+    {
+      "id": 1,
+      "imageUrl": "https://chemsec.org/app/uploads/2017/03/Rubiks_cube-739x365.png",
+      "price": 4000,
+      "discription": "test1",
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://chemsec.org/app/uploads/2017/03/Rubiks_cube-739x365.png",
+      "price": 4500,
+      "discription": "test1",
+      "qty": 1
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 3
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

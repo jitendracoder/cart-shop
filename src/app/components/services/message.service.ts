@@ -11,12 +11,6 @@ _subject = new Subject();
   getproduct(product_detail){
        console.log(product_detail)
       return this._subject.next(product_detail);
-      // console.log(this._subject.next(product_detail));
-      
+     
   }
-  // sendproduct(){
-  
-  //     return this._subject.asObservable();
-      
-  // }
 }

@@ -1,7 +1,8 @@
 <!-- <div *ngFor="let cartlist of [1,2,3,4]"> -->
-<div *ngFor="let cartlist of  cart_arry">
+<!-- <div *ngFor="let cartlist of  cart_arry"> -->
+    <div *ngFor="let cartlist of  getCartItem">
    
-    <span><small>{{cartlist.discription}}</small><br>{{cartlist.price}}</span><span></span>  <strong></strong>
+    <span><small>{{cartlist.discription}}</small><br>{{cartlist.price}}*{{cartlist.qty}}</span><span></span>  <strong></strong>
     <div class="divider"></div>
 </div>
 <div><strong>Total</strong> </div>
